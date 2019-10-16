@@ -42,6 +42,7 @@
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.lbCosto = new System.Windows.Forms.Label();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbComidaTortilla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbComidaPan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbComida)).BeginInit();
@@ -134,7 +135,7 @@
             // lstPedido
             // 
             this.lstPedido.FormattingEnabled = true;
-            this.lstPedido.Location = new System.Drawing.Point(543, 24);
+            this.lstPedido.Location = new System.Drawing.Point(527, 23);
             this.lstPedido.Name = "lstPedido";
             this.lstPedido.Size = new System.Drawing.Size(120, 186);
             this.lstPedido.TabIndex = 3;
@@ -142,7 +143,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(552, 234);
+            this.label4.Location = new System.Drawing.Point(540, 234);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 2;
@@ -159,7 +160,7 @@
             // lbCosto
             // 
             this.lbCosto.AutoSize = true;
-            this.lbCosto.Location = new System.Drawing.Point(605, 234);
+            this.lbCosto.Location = new System.Drawing.Point(595, 234);
             this.lbCosto.Name = "lbCosto";
             this.lbCosto.Size = new System.Drawing.Size(19, 13);
             this.lbCosto.TabIndex = 2;
@@ -173,13 +174,22 @@
             this.listBox3.Size = new System.Drawing.Size(120, 186);
             this.listBox3.TabIndex = 3;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(715, 23);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 186);
+            this.listBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(778, 301);
+            this.ClientSize = new System.Drawing.Size(883, 301);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.lstPedido);
             this.Controls.Add(this.lbComida);
             this.Controls.Add(this.lbCosto);
@@ -218,6 +228,7 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Label lbCosto;
         private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
